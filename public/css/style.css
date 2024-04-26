@@ -1,0 +1,18 @@
+
+.col{
+    padding-top: 30px; 
+}
+
+.card{
+    width: 18rem;
+}
+
+.card-img-top {
+    max-height: 200px; /* Establece la altura máxima deseada para todas las imágenes */
+    width: auto; /* Permite que el ancho de la imagen se ajuste automáticamente según la altura máxima */
+    object-fit: contain; /* Escala la imagen para que quepa dentro del área asignada sin distorsionarla */
+}
+
+.mensaje{
+    padding: 30px; 
+}
